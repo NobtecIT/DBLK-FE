@@ -1,6 +1,6 @@
 [build]
-  command="ng build"
-  publish="dist/angular-quickstart"
+  command="npm install --legacy-peer-deps"
+  publish="dist/DBLK-FE"
 
 [[redirects]]
   from = "/*"
