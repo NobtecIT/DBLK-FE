@@ -1,6 +1,6 @@
 [build]
   command="npm install --legacy-peer-deps"
-  publish="dist/DBLK-FE"
+  publish="src"
 
 [[redirects]]
   from = "/*"
