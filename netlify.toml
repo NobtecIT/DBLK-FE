@@ -1,9 +1,0 @@
-[build]
-  command="npm install --legacy-peer-deps"
-  publish="dist/finder"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
