@@ -4,7 +4,7 @@
     "analytics": "5caa803c-5878-4f99-8241-a5c23fbf5882"
   },
   "version": 1,
-  "newProjectRoot": "projects",
+  "newProjectRoot": "project",
   "projects": {
     "Finder": {
       "projectType": "application",
