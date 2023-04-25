@@ -1,166 +1,154 @@
 import { MenuItem } from './menu.model';
 
 export const MENU: MenuItem[] = [
-    {
-        id: 1,
-        label: 'Home',
-        link: '/home1'
-    },
-    {
-      id: 4,
-      label: 'Catalog',
-      subItems: [
-        {
-            id: 5,
-            label: 'Grid with Filters',
-            link: '/catalog/grid',
-            parentId: 4
-        },
-        {
-            id: 6,
-            label: 'Single Place - Gallery',
-            link: '/catalog/single',
-            parentId: 4
-        },
-        {
-          id: 6,
-          label: 'Single Place - Info',
-          link: '/catalog/single-info',
-          parentId: 4
-        },
-        {
-          id: 6,
-          label: 'Single Place - Reviews',
-          link: '/catalog/single-reviews',
-          parentId: 4
-        },
-      ]
-    },
-    {
-      id: 7,
-      label: 'Account',
-      subItems: [
-        {
-            id: 8,
-            label: 'Personal Info',
-            link: '/account/info',
-            parentId: 7
-        },
-        {
-            id: 9,
-            label: 'Favorites',
-            link: '/account/favorites',
-            parentId: 7
-        },
-        {
-          id: 10,
-          label: 'Reviews',
-          link: '/account/reviews',
-          parentId: 7
-        },
-        {
-          id: 11,
-          label: 'Notifications',
-          link: '/account/notifications',
-          parentId: 7
-        },
-        {
-          id: 12,
-          label: 'Sign In',
-          link: '/auth/signin',
-          parentId: 7
-        },
-        {
-          id: 13,
-          label: 'Sign Up',
-          link: '/auth/signup',
-          parentId: 7
-        },
-      ]
-    },
-    {
-      id: 16,
-      label: 'Vendor',
-      subItems: [
-        {
-            id: 17,
-            label: 'Add Business',
-            link: '/vendor/add-business',
-            parentId: 16
-        },
-        {
-            id: 18,
-            label: 'Business Promotion',
-            link: '/vendor/business-promotion',
-            parentId: 16
-        },
-        {
-          id: 19,
-          label: 'My Businesses',
-          link: '/vendor/businesses',
-          parentId: 16
-        },
-      ]
-    },
-    {
-      id: 21,
-      label: 'Pages',
-      subItems: [
-        {
-            id: 22,
-            label: 'About',
-            link: '/pages/about',
-            parentId: 21
-        },
-        {
-          id: 23,
-          label: 'Blog',
-          subItems: [
-            {
-              id: 24,
-              label: 'Blog Grid',
-              link: '/pages/blog-grid',
-              parentId: 23
-            },
-            {
-              id: 25,
-              label: 'Single Post',
-              link: '/pages/single-blog',
-              parentId: 23
-            }
-          ]
-        },
-        {
-            id: 26,
-            label: 'Contacts',
-            link: '/pages/contacts',
-            parentId: 21
-        },
-        {
-          id: 27,
-          label: 'Help Center',
-          subItems: [
-            {
-              id: 28,
-              label: 'Help Topics',
-              link: '/pages/help-center',
-              parentId: 27
-            },
-            {
-              id: 29,
-              label: 'Single Topic',
-              link: '/pages/single-topic',
-              parentId: 27
-            }
-          ]
-        },
-        {
-          id: 30,
-          label: '404 Not Found',
-          link: '/pages/404',
-          parentId: 21
-        },
-      ]
-    },
+  {
+    id: 1,
+    label: 'Home',
+    link: '/home1',
+  },
+  {
+    id: 4,
+    label: 'Restaurants',
+    subItems: [
+      {
+        id: 5,
+        label: 'Nigerian',
+        link: 'nigeria',
+        parentId: 4,
+      },
+      {
+        id: 6,
+        label: 'African',
+        link: 'african',
+        parentId: 4,
+      },
+      {
+        id: 6,
+        label: 'Chinese',
+        link: '/chinese',
+        parentId: 4,
+      },
+      {
+        id: 6,
+        label: 'Delivery',
+        link: '/cat',
+        parentId: 4,
+      },
+    ],
+  },
+  {
+    id: 7,
+    label: 'Home Services',
+    subItems: [
+      {
+        id: 8,
+        label: 'Heating & Air Conditioning/HVAC',
+        link: '/ac',
+        parentId: 7,
+      },
+      {
+        id: 9,
+        label: 'Lighting Fixtures & Equipment',
+        link: '/acco',
+        parentId: 7,
+      },
+      {
+        id: 10,
+        label: 'Plumbing',
+        link: '/apl',
+        parentId: 7,
+      },
+      {
+        id: 11,
+        label: 'Painters',
+        link: '/paint',
+        parentId: 7,
+      },
+      {
+        id: 12,
+        label: 'Real Estate',
+        link: '/real',
+        parentId: 7,
+      },
+      {
+        id: 13,
+        label: 'Security Systems',
+        link: '/secure',
+        parentId: 7,
+      },
+    ],
+  },
+  {
+    id: 16,
+    label: 'Health & Medical',
+    subItems: [
+      {
+        id: 17,
+        label: 'Chiropractors',
+        link: '/Chiropractors',
+        parentId: 16,
+      },
+      {
+        id: 18,
+        label: 'Dentists',
+        link: '/Dentists',
+        parentId: 16,
+      },
+      {
+        id: 19,
+        label: 'Doctors',
+        link: '/Doctors',
+        parentId: 16,
+      },
+      {
+        id: 19,
+        label: 'Hospitals',
+        link: '/Hospitals',
+        parentId: 16,
+      },
+      {
+        id: 19,
+        label: 'Pharmacy',
+        link: '/Pharmacy',
+        parentId: 16,
+      },
+    ],
+  },
+  {
+    id: 21,
+    label: 'Professional Services',
+    subItems: [
+      {
+        id: 22,
+        label: 'Accountants',
+        link: '/Accountants',
+        parentId: 21,
+      },
+      {
+        id: 23,
+        label: 'Lawyers',
+        link: '/lawyers',
+        parentId: 23,
+      },
+      {
+        id: 26,
+        label: 'Software Development',
+        link: '/Software Development',
+        parentId: 26,
+      },
+      {
+        id: 26,
+        label: 'Legal Services',
+        link: '/Legal Services',
+        parentId: 26,
+      },
+      {
+        id: 26,
+        label: 'Immigration Law',
+        link: '/Immigration Law',
+        parentId: 26,
+      },
+    ],
+  },
 ];
 
